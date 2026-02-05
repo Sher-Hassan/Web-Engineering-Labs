@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Career Fair Feedback</title>
+</head>
+<body>
+    <h1>Career Fair Feedback Form</h1>
+    <form action="http://www.bahria.com" method="post">
+        <label for="full-name">Full Name:</label>
+        <input type="text" id="full-name" name="student_name" required><br><br>
+
+        <label for="user-email">Email Address:</label>
+        <input type="email" id="user-email" name="student_email" required><br><br>
+
+        <p>What aspects of the career fair did you find most helpful?</p>
+        <input type="checkbox" id="networking" name="helpful_elements" value="networking">
+        <label for="networking">Networking Opportunities</label><br>
+        <input type="checkbox" id="employers" name="helpful_elements" value="employers">
+        <label for="employers">Company Diversity</label><br>
+        <input type="checkbox" id="venue" name="helpful_elements" value="venue">
+        <label for="venue">Event Venue</label><br>
+        <input type="checkbox" id="organization" name="helpful_elements" value="organization">
+        <label for="organization">Event Management</label><br>
+        <input type="checkbox" id="workshops" name="helpful_elements" value="workshops">
+        <label for="workshops">Resume Workshops</label><br>
+        <input type="checkbox" id="interviews" name="helpful_elements" value="interviews">
+        <label for="interviews">On-spot Interviews</label><br>
+
+        <p>How did you find out about this event?</p>
+        <input type="radio" id="peer" name="source" value="friends">
+        <label for="peer">Friends</label><br>
+        <input type="radio" id="ad" name="source" value="television">
+        <label for="ad">Television</label><br>
+        <input type="radio" id="web" name="source" value="internet">
+        <label for="web">Internet</label><br>
+        <input type="radio" id="other-source" name="source" value="other">
+        <label for="other-source">Other</label><br><br>
+
+        <label for="feedback">Your Suggestions:</label><br>
+        <textarea id="feedback" name="user_comments" rows="5" cols="40"></textarea><br><br>
+
+        <input type="submit" value="Submit Feedback">
+        <input type="reset" value="Clear Form">
+    </form>
+</body>
+</html>
