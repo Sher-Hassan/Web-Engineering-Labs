@@ -1,0 +1,19 @@
+body { 
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; 
+}
+.menu a { 
+    display: block; 
+    padding: 0.5rem 0.75rem; 
+}
+.menu li { 
+    border-top: 1px solid rgba(34,197,94,0.15); 
+}
+.container { 
+    max-width: 1000px; 
+}
+.menu a:hover { 
+    background-color: rgba(16,185,129,0.08); 
+}
+h1 { 
+    letter-spacing: 2px; 
+}
